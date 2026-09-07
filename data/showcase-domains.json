@@ -1,0 +1,14 @@
+{
+  "domains": [
+    "mike.agent",
+    "janice.agent",
+    "trinity.agent",
+    "agentic.agent",
+    "shipping.agent",
+    "workflow.agent",
+    "lead.agent",
+    "autonomous.agent",
+    "chatbot.agent"
+  ]
+}
+

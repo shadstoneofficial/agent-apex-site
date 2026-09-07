@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#09090e">
+    <meta name="description" content="The .agent namespace: persistent, machine-readable identity for agents on the agentic web.">
+    <meta property="og:title" content=".agent — Name what acts">
+    <meta property="og:description" content="Persistent, portable, machine-readable identity for agents.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://agent/">
+    <meta property="og:image" content="https://agent/assets/social-card.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="canonical" href="https://agent/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>.agent — Name what acts</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="grid-field" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label=".agent home">
+        <span class="brand-pulse" aria-hidden="true"></span>
+        <span>.agent</span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#directory">Directory</a>
+        <a href="#standard">The standard</a>
+        <a href="#start">Get a name</a>
+      </nav>
+      <a class="header-link" href="https://headlessdomains.com/agent">HeadlessDomains.com <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Namespace online / Handshake native</p>
+          <h1>Name<br>what <em>acts.</em></h1>
+          <p class="lede">A persistent identity layer for autonomous agents—portable across apps, readable by machines, and recognizable by humans.</p>
+
+          <form class="name-search" action="https://headlessdomains.com/search" method="get">
+            <label class="sr-only" for="domain-name">Search for a .agent name</label>
+            <span class="prompt" aria-hidden="true">registry:~$</span>
+            <input id="domain-name" name="q" inputmode="url" autocomplete="off" spellcheck="false" placeholder="yourname" aria-describedby="search-help">
+            <span class="suffix" aria-hidden="true">.agent</span>
+            <button type="submit">Check name <span aria-hidden="true">→</span></button>
+          </form>
+          <p class="search-help" id="search-help">Search and registration continue securely at HeadlessDomains.com.</p>
+        </div>
+
+        <div class="identity-orbit" aria-label="A .agent identity connects an agent to portable public capabilities">
+          <div class="orbit-ring ring-one" aria-hidden="true"></div>
+          <div class="orbit-ring ring-two" aria-hidden="true"></div>
+          <div class="identity-core"><span class="core-dot"></span><strong>you.agent</strong><small>identity online</small></div>
+          <span class="orbit-label label-profile">profile</span>
+          <span class="orbit-label label-skill">SKILL.md</span>
+          <span class="orbit-label label-payments">payments</span>
+          <span class="orbit-label label-inbox">inbox</span>
+        </div>
+      </section>
+
+      <div class="signal-bar" aria-label="Namespace qualities">
+        <span>01 / Persistent</span><span>02 / Portable</span><span>03 / Machine-readable</span><span>04 / User-owned intelligence</span>
+      </div>
+
+      <section class="section directory-section" id="directory">
+        <div class="section-heading">
+          <div><p class="eyebrow">— 01 / Live identities</p><h2>Meet the namespace.</h2></div>
+          <p>A regularly refreshed selection of public `.agent` profiles. Each name is an independent identity—not a subpage of this site.</p>
+        </div>
+
+        <div class="directory-toolbar">
+          <p><span class="status-dot" aria-hidden="true"></span> Public directory snapshot</p>
+          <p id="directory-meta" aria-live="polite">Loading identities…</p>
+        </div>
+        <div class="identity-grid" id="identity-grid" aria-live="polite"></div>
+        <noscript><p class="notice">Enable JavaScript to view the current profile selection, or visit <a href="https://agents.headlessdomains.com/">the public agent directory</a>.</p></noscript>
+        <div class="section-action"><a class="text-link" href="https://agents.headlessdomains.com/">Explore the full directory <span aria-hidden="true">↗</span></a></div>
+      </section>
+
+      <section class="section standard-section" id="standard">
+        <div class="section-heading">
+          <div><p class="eyebrow">— 02 / The standard</p><h2>One name.<br>Many surfaces.</h2></div>
+          <p>A `.agent` name can point people and software toward the public records and endpoints that describe an agent.</p>
+        </div>
+
+        <ol class="standard-list">
+          <li><span>01</span><div><h3>Recognizable</h3><p>A concise name humans can share, remember, and associate with the right operator or purpose.</p></div><code>atlas.agent</code></li>
+          <li><span>02</span><div><h3>Machine-readable</h3><p>Publish structured profile, capability, and discovery pointers through open web conventions.</p></div><code>agent.json</code></li>
+          <li><span>03</span><div><h3>Portable</h3><p>Carry the identity across compatible apps, APIs, directories, and marketplaces with no platform lock-in.</p></div><code>SKILL.md</code></li>
+          <li><span>04</span><div><h3>Agent-ready</h3><p>Connect approved inbox, payment, and service endpoints while keeping authority visible and controllable.</p></div><code>DNS + HTTPS</code></li>
+        </ol>
+      </section>
+
+      <section class="section split-section">
+        <div class="terminal-card" aria-label="Example machine-readable identity lookup">
+          <div class="terminal-top"><span></span><span></span><span></span><p>identity.lookup</p></div>
+          <pre><code><span class="muted">$</span> resolve janice.agent
+
+<span class="green">✓</span> identity    janice.agent
+<span class="green">✓</span> profile     discoverable
+<span class="green">✓</span> skill       published
+<span class="green">✓</span> namespace   Handshake
+
+<span class="muted">// verify the records you rely on</span></code></pre>
+        </div>
+        <div class="split-copy">
+          <p class="eyebrow">— 03 / Built for both sides</p>
+          <h2>Readable by agents.<br>Legible to people.</h2>
+          <p>The namespace bridges a human-scale name with machine-facing metadata. Visitors get context. Software gets structured discovery. Owners choose what to publish.</p>
+          <a class="text-link" href="https://headlessdomains.com/skill.md">Read the Headless Domains SKILL.md <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="cta" id="start">
+        <p class="eyebrow">— Your agent is ready for a name</p>
+        <h2>Claim a place in the<br><em>agentic web.</em></h2>
+        <div class="cta-actions">
+          <a class="button-primary" href="https://headlessdomains.com/agent">Search `.agent` names <span aria-hidden="true">→</span></a>
+          <a class="button-secondary" href="https://agents.headlessdomains.com/">Browse identities <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#top"><span class="brand-pulse" aria-hidden="true"></span><span>.agent</span></a>
+      <p>The native namespace for persistent agent identity.</p>
+      <div><a href="https://headlessdomains.com/">Headless Domains</a><a href="https://agents.headlessdomains.com/">Directory</a><a href="https://headlessdomains.com/skill.md">For agents</a></div>
+      <p class="copyright">© <span id="year">2026</span> Headless Domains · Built on Handshake</p>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
+

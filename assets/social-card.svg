@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#09090e"/>
+  <g stroke="#20202b" stroke-width="1" opacity=".7">
+    <path d="M0 90h1200M0 180h1200M0 270h1200M0 360h1200M0 450h1200M0 540h1200"/>
+    <path d="M90 0v630M180 0v630M270 0v630M360 0v630M450 0v630M540 0v630M630 0v630M720 0v630M810 0v630M900 0v630M990 0v630M1080 0v630"/>
+  </g>
+  <circle cx="100" cy="80" r="10" fill="#12e8a0"/>
+  <text x="130" y="91" fill="#ededf2" font-family="monospace" font-size="30" font-weight="600">.agent</text>
+  <text x="86" y="352" fill="#ededf2" font-family="Arial, sans-serif" font-size="126" font-weight="500" letter-spacing="-8">Name what</text>
+  <text x="86" y="478" fill="#12e8a0" font-family="Arial, sans-serif" font-size="126" font-style="italic" font-weight="500" letter-spacing="-8">acts.</text>
+  <text x="90" y="560" fill="#9898a8" font-family="monospace" font-size="22">PERSISTENT / PORTABLE / MACHINE-READABLE</text>
+</svg>
+
